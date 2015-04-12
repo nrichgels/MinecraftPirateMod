@@ -32,6 +32,9 @@ public class Pirates {
         //@PreInit    // used in 1.5.2
         public void preInit(FMLPreInitializationEvent event) {
                 // Stub Method
+        	EntityPirate.mainRegistry();
+        	proxy.registerRenderers();
+        	
         }
         
         @EventHandler // used in 1.6.2
